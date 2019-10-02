@@ -6,7 +6,8 @@ Apprentissage progressif du HTML/CSS et d'animation css/
 
 **Formation BeCode Charleroi**
 
-___url du projet:___ https://bacqestelle.github.io/becode-animation-css/
+___url du projet:___ https://bacqestelle.github.io/becode-animation-css/drill.html
+                     https://bacqestelle.github.io/becode-animation-css/carte.html
 
 ## Objectif
   - Creation d'une page HTML/CSS
