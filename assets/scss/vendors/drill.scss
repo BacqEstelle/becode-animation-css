@@ -1,0 +1,122 @@
+// importations
+@import "_drill_mixins.scss";
+@import "_drill_mobile.scss";
+@import "_drill_print.scss";
+@import "_drill_variables.scss";
+
+body {
+    background-color: black;
+    margin: 400px;
+    text-align: center;
+  }
+  
+/*---Bouton1---*/ 
+  .button-1{
+        background-color: black;
+        border: 3px solid white;
+        padding: 40px;
+        margin: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 1s;
+              
+
+              
+          
+        &:hover{
+            background-color: white;
+            border: 3px solid white;
+            color: black;
+            padding: 40px;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+                  
+
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+    }      
+
+/*---Bouton 2---*/
+
+    .button-2{
+        background-color: black;
+        border: 3px solid white;
+        margin: 20px;
+        padding: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 1s;
+              
+
+              
+          
+        &:hover{
+            background-color: white;
+            border: 3px solid white;
+            color: black;
+            padding: 40px;
+            transform: scale(1.1);
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+                  
+
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+    }    
+
+/*---Bouton 2---*/
+
+.button-3{
+    background-color: black;
+    border: 3px solid white;
+    margin: 20px;
+    padding: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s;
+    transition-timing-function: ease;
+          
+
+          
+      
+    &:hover{
+        background-color: white;
+        border: 3px solid white;
+        color: black;
+        padding: 40px;
+        transform: translateX(200px);
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+              
+
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+} 
+//

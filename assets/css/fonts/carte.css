@@ -1,0 +1,116 @@
+@media screen and (min-width: 960px) {
+  body {
+    font-family: "Open Sans", sans-serif;
+    width: auto;
+    margin: 20px 250px 20px 250px;
+    background-color: lightgray;
+  }
+  body .effect-hover:hover {
+    box-shadow: 10px 10px 10px 10px black;
+    background-color: white;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  body .effect-hover:hover .top-head {
+    opacity: 0.5;
+    max-height: 550px;
+    transform: scaleY(1.1);
+  }
+  body .effect-hover:hover section {
+    transform: translateY(-40%);
+    background-color: white;
+  }
+  body .effect-hover:hover section .title-pictures {
+    display: block;
+    position: relative;
+    margin-top: -140px;
+    background-color: tomato;
+    color: white;
+    transform: translateY(40%);
+  }
+  body .effect-hover:hover section article {
+    padding-top: 30px;
+  }
+  body .effect-hover:hover section article p {
+    display: block;
+    background-color: white;
+  }
+  body .effect-hover .top-head {
+    background-image: url(../../../assets/img/background.jpg);
+    height: 550px;
+    transition: 1s;
+    transition-timing-function: ease;
+  }
+  body .effect-hover .date {
+    position: absolute;
+    display: block;
+    height: 100px;
+    width: 100px;
+    top: 5%;
+    right: 15%;
+    border-radius: 100%;
+    background-color: tomato;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    z-index: 1;
+  }
+  body .effect-hover .date p {
+    position: relative;
+    margin-top: 40px;
+    font-size: 12px;
+    white-space: pre;
+    overflow: hidden;
+  }
+  body .effect-hover section {
+    top: 60%;
+    padding: 25px;
+    transition: 1s;
+    transition-timing-function: ease;
+    background-color: white;
+  }
+  body .effect-hover section .title-pictures {
+    display: block;
+    position: relative;
+    margin-top: -100px;
+    margin-left: -25px;
+    padding: 15px;
+    width: 150px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    transition: 1s;
+    transition-timing-function: ease;
+  }
+  body .effect-hover section .title-pictures h3 {
+    background-color: tomato;
+    color: white;
+  }
+  body .effect-hover section h3 {
+    color: tomato;
+    background-color: white;
+  }
+  body .effect-hover section p {
+    display: none;
+    background-color: white;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  body .effect-hover .comments {
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 10px 0px 50px 0px;
+    background-color: white;
+  }
+  body .effect-hover .comments span {
+    grid-row: 1;
+    background-color: white;
+  }
+  body .effect-hover .comments span a {
+    text-decoration: none;
+    color: lightgrey;
+  }
+}
+
+/*# sourceMappingURL=carte.css.map */
